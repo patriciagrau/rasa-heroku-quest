@@ -1,0 +1,164 @@
+version: "2.0"
+
+nlu:
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - yup
+    - sure
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - nope
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+
+- intent: stay
+  examples: |
+    - stay
+    - let's stay
+    - we should stay
+    - let's stay here
+    - we should not move
+    - hide
+    - let's hide
+    - we should hide
+    - let's hide
+
+- intent: go
+  examples: |
+    - go
+    - let's go
+    - take the tunnel
+    - tunnel
+    - run
+    - let's run
+    - we should run
+    - run as fast as possible
+
+- intent: fireDoor
+  examples: |
+    - the first one
+    - door number one
+    - through the fire and flames
+    - Through the Fire and Flames"
+    - fire and flames
+    - the first door"
+    - the fire door
+
+- intent: kingDoor
+  examples: |
+    - hail to the king
+    - Hail to the King
+    - the second door
+    - door number two
+    - the king door
+- intent: deadDoor
+  examples: |
+    - dead but rising
+    - Dead but Rising
+    - the third door
+    - the third one
+    - the last one
+    - door number three
+
+- intent: mushroom
+  examples: |
+    - the mushroom
+    - mushroom
+    - the Aislin
+    - the cool mushroom 
+    - the fungus
+
+- intent: goblet
+  examples: |
+    - the goblet
+    - the cup
+    - the goblet of Morgana
+    - the cup of Morgana
+
+- intent: nothing
+  examples: |
+    - nothing
+    - nothing at all
+    - take nothing
+    - do no take anything 
+
+- intent: callingMe
+  examples: |
+    - it was calling me
+    - it called me
+    - it is calling me
+    - it calls me
+
+- intent: shiny
+  examples: |
+    - it is shiny
+    - shiny
+    - I like shiny stuff
+
+- intent: mushroomSuck
+  examples: |
+    - mushroom suck
+    - mushroom sucks
+    - mushrooms suck
+    - the other option was a mushroom
+
+
+- intent: left
+  examples: |
+    - left
+    - go to the left
+    - to the left
+    - the left one
+    - the one on the left
+
+- intent: right
+  examples: |
+    - right
+    - go to the right
+    - to the right
+    - the right one
+    - the one on the right
+
+
+- intent: mercy
+  examples: |
+    - mercy
+    - beg for mercy
+    - ask for mercy
+
+- intent: quiet
+  examples: |
+    - be quiet
+    - stay quiet
+    - do nothing
+    - shut up
+
+- intent: moneyCoin
+  examples: |
+    - it is money
+    - money
+    - it is a coin
+    - a coin
+    - coin
+
+- intent: help
+  examples: |
+    - help me
+    - help
+    - hint
+    - give me a hint
+    - give me some help
